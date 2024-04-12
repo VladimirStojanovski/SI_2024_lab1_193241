@@ -1,0 +1,86 @@
+4. $ git init 
+iniciajalizacija na lokalniot direktorium vo Git repo.
+
+5. $ git remote add origin https://github.com/VladimirStojanovski/SI_2024_lab1_193241.git
+   $ git remote -v
+povrzuvanje na lokalniot repo so remote repo.
+
+6. $ cat > README.md
+   $ git add README.md
+   $ git commit -m "Initial commit"
+kreiranje na README fileot, dodavanje i commit.
+
+7. $ git add *.java
+   $ git commit -m "Add starter code"
+dodavanje i commit posle download na trite java files.
+
+8. $ git push origin --all
+sinhronizacija na site granki so remote repo.
+
+9. $ git branch bug1
+   $ git branch bug2
+kreiranje na dvete granki razgraneti od master.
+
+10. $ git checkout bug1
+prefrlanje na grankata bug1.
+
+11. $ git add SILab1_1.java
+    $ git commit -m "Fix wrong condition in filterOddLengthStrings"
+dodavanje i commit odkako ke ja popraveme greshkata vo java fileot.
+
+12. $ git checkout bug2
+prefrlanje na grankata bug2.
+
+13. $ git add SILab1_2.java
+    $ git commit -m "Fix wrong condition in makeBigStringFrom"
+dodavanje i commit odkako ke ja popraveme greshkata vo java fileot.
+
+14. $ git checkout bug1
+prefrlanje na grankata bug1.
+
+15. $ git add SILab1Main.java
+    $ git commit -m "Call method filterOddLengthStrings in main class"
+dodavanje i commit posle dodavanje na povikot vo java fileot.
+
+16. $ git checkout bug2
+prefrlanje na grankata bug2.
+
+17. $ git add SILab1Main.java
+    $ git commit -m "Call method makeBigStringFrom in main class"
+dodavanje i commit posle dodavanje na povikot vo java fileot.
+
+18. $ git push origin --all
+sinhronizacija na site granki so remote repo.
+
+19. $ checkout master
+prefrlanje na grankata master
+
+20. $ git merge bug1
+grankata bug1 se spojuva so grankata master koristejki fast forward merge.
+
+21. $ git push origin --all
+sinhronizacija na site granki so remote repo.
+
+22. $ git checkout bug2
+prefrlanje na grankata bug2.
+
+23. $ git rebase master
+pri izvrsuvanje na ovaa komanda se javuva konflikt bidejki dvete granki imaa razlicna sodrzina na linija 16. Go resavame konfliktot so premestuvanje na edniot povik na linija 17.
+
+24. $ git checkout master
+prefrlanje na grankata master.
+ 
+25. $ git merge bug2
+grankata bug2 se spojuva so grankata master koristejki fast forward merge.
+
+26-27.  $ git push origin master
+	$ git push origin bug1
+	$ git push origin bug2 --force
+
+28. $ git log
+    $ cat > logs.txt
+    $ git add logs.txt
+    $ git add 193241.txt
+    $ git commit -m "Final commit"
+
+29. git push origin -all

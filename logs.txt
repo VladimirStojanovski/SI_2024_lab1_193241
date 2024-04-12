@@ -1,0 +1,36 @@
+$ git log
+commit 21acb4db2edddff2e3cdb1c4e741ead564d822ba (HEAD -> master, origin/master, origin/bug2, bug2)
+Author: Vladimir Stojanovski <vladimir.stojanovski5@gmail.com>
+Date:   Fri Apr 12 16:00:44 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit da4e7a5e093706cc683b02b7454c75bf62e66a2b
+Author: Vladimir Stojanovski <vladimir.stojanovski5@gmail.com>
+Date:   Fri Apr 12 15:54:53 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit c2294f7aee3eb1ef473ea969cf6a835c54e1048a (origin/bug1, bug1)
+Author: Vladimir Stojanovski <vladimir.stojanovski5@gmail.com>
+Date:   Fri Apr 12 15:57:34 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 943255897c3145d4095afa9fd2f034fe3f4d06f7
+Author: Vladimir Stojanovski <vladimir.stojanovski5@gmail.com>
+Date:   Fri Apr 12 15:51:11 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 3cd1b8cbcab9ce2e0b9fbe2913c445b0b0d263d1
+Author: Vladimir Stojanovski <vladimir.stojanovski5@gmail.com>
+Date:   Fri Apr 12 15:37:14 2024 +0200
+
+    Add starter code
+
+commit 349af65114fbcf1a70cb06356672d98eba50056c
+Author: Vladimir Stojanovski <vladimir.stojanovski5@gmail.com>
+Date:   Fri Apr 12 15:32:38 2024 +0200
+
+    Initial commit
